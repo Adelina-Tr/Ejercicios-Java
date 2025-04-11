@@ -16,6 +16,12 @@ public class Textos {
         String mensaje = saludo + nombre2 + "!";
         System.out.println(mensaje);
 
+        String saludo2 = "Hola, mi nombre es ";
+        String nombre4 = "Alicia ";
+        String continuacion = "y mi edad es ";
+        int edad = 17;
+        System.out.println(saludo2 + nombre4 + continuacion + edad);
+
         //Comparar String
         String contrasena= "12345";
         if (contrasena.equals("12345")) {
@@ -40,9 +46,9 @@ public class Textos {
         %2f ---> decimal delimitado
         */
             String nombre3 = "Maria";
-            int edad = 30;
+            int edad2 = 30;
             double valor = 55.9999;
-            System.out.println(String.format("Mi nombre es %s, tengo %d años y hoy gasté %.2f dolares", nombre3, edad, valor));
+            System.out.println(String.format("Mi nombre es %s, tengo %d años y hoy gasté %.2f dolares", nombre3, edad2, valor));
 
 
         }

@@ -15,5 +15,8 @@ public class Main {
                 Fue lanzada en:
                 """+FechaDeLanzamiento;
         System.out.println(sinopsis);
+
+        int clasificacion = (int) (media/2);
+        System.out.println(clasificacion);
     }
 }
